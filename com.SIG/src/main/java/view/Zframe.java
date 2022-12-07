@@ -67,7 +67,7 @@ public class Zframe extends javax.swing.JFrame {
 
         dltInvBtn.setText("Delete Invoice");
 
-        saveBtn.setText("Save");
+        saveBtn.setText("Create");
         saveBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 saveBtnActionPerformed(evt);
@@ -110,7 +110,7 @@ public class Zframe extends javax.swing.JFrame {
 
         totalLbl.setText(".");
 
-        cancelBtn.setText("Cancel");
+        cancelBtn.setText("Delete");
         cancelBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cancelBtnActionPerformed(evt);

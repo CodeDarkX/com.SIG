@@ -44,10 +44,10 @@ public class Controller implements ActionListener, ListSelectionListener{
             case "Delete Invoice":
                 deleteInv();
                 break;
-            case "Save":
+            case "Create":
                 saveChng();
                 break;
-            case "Cancel":
+            case "Delete":
                 cancelChng();
                 break;
             case "Open":
